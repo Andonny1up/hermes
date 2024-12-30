@@ -22,9 +22,17 @@ if __name__ == "__main__":
     user_model = User(db)
 
     # Crear un usuario
-    user_id = user_model.create(
-        username="emilio", password="123456")
-    print(f"Usuario creado con ID: {user_id}")
+    # user_id = user_model.create_user(
+    #     username="andoni", password="and123456")
+    # print(f"Usuario creado con ID: {user_id}")
+
+    username="andoni"
+    password="and123456"
+
+    if user_model.authenticate(username, password):
+        print("Usuario autenticado correctamente.")
+    else:
+        print("Nombre de usuario o contraseña incorrectos.")
 
     # # Obtener el usuario creado
     # user = user_model.get(user_id)
