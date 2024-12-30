@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Iconos"/>
+  <qresource prefix="images">
+    <file>static/logo-Hermes-white-tranparent.png</file>
+    <file>static/logo-Hermes-icon.png</file>
+    <file>static/logo-Hermes-tranparent.png</file>
+    <file>static/hermes_inventory.jpeg</file>
+  </qresource>
+</RCC>
